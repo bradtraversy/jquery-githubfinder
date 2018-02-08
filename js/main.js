@@ -58,7 +58,7 @@ $(document).ready(function(){
               <br><br>
               <ul class="list-group">
                 <li class="list-group-item">Company: ${user.company}</li>
-                <li class="list-group-item">Website/blog: ${user.blog}</li>
+                <li class="list-group-item">Website/blog: <a href="${user.blog}" target="_blank">${user.blog}</a></li>
                 <li class="list-group-item">Location: ${user.location}</li>
                 <li class="list-group-item">Member Since: ${user.created_at}</li>
               </ul>
